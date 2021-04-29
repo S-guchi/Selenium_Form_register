@@ -1,2 +1,6 @@
 # Selenium_Form_register
 SeleniumVBAを使用。Excelの値を使用してForm入力
+
+# 要件
+ServiceNowっていうチケット管理システムへ色々な履歴を登録するツール
+この時は、Iframeっていう存在を知らず、要素が取れなくてかなりつまずいた

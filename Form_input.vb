@@ -7,7 +7,7 @@ Sub ServiceNow()
     Dim Ws2 As Worksheet: Set Ws2 = wb.Worksheets("メール内容")
     Dim Id As String: Id = Ws1.Range("A3").Value
     Dim Pw As String: Pw = Ws1.Range("B3").Value
-        Dim Url As String: Url = "ServiceNowのページ"
+    Dim Url As String: Url = "ServiceNowのページ"
     Dim Title As String: Title = ""
     Dim flg As Long: flg = Ws2.Cells(Ws2.Rows.Count, "E").End(xlUp).Row + 1
     Dim MailBody() As Variant
